@@ -1,0 +1,22 @@
+@import 'partials/variables';
+@import 'partials/navbar';
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 10%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
